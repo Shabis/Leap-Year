@@ -14,7 +14,7 @@ $(document).ready(function() {
 
       $(".year").text(year);
 
-      if(!result) {
+      if(!result) {  
         $(".not").text("not");
       } else {
         $(".not").text("");
